@@ -1,4 +1,4 @@
-package estacionamiento
+package parking
 
 import parking.vehiculo.Vehiculo
 

@@ -1,4 +1,4 @@
-package estacionamiento
+package parking
 
 class Lugar {
     int posicion

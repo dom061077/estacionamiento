@@ -9,7 +9,10 @@ class Estacionamiento {
     Date horaIngreso
     Date horaSalida
     Lugar lugar
+    boolean confirmado
     
+    
+    static hasMany = [mantenimientos: Mantenimiento]
     static constraints = {
     }
 }

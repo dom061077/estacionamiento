@@ -5,7 +5,7 @@ import parking.vehiculo.Vehiculo
 class Estacionamiento {
     
     Vehiculo vehiculo
-    java.sql.Date fecha
+    java.sql.Date fecha = new java.sql.Date((new Date()).getTime())
     Date horaIngreso
     Date horaSalida
     Lugar lugar

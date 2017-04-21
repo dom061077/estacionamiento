@@ -86,6 +86,10 @@
 			<h1>Opciones</h1>
 			<ul>
 				<li><g:link class="list" controller="tipoMantenimiento" action="index">Tipo de Mantenimiento</g:link></li>
+                                <li><g:link class="list" controller="tipoVehiculo" action="index">Tipo de Vehiculo</g:link></li>
+                                <li><g:link class="list" controller="lugar" action="index">Lugar</g:link></li>
+                                <li><g:link class="list" controller="vehiculo" action="index">Vehiculo</g:link></li>
+                                <li><g:link class="list" controller="estacionamiento" action="index">Estacionamiento</g:link></li>
 			</ul>
 		</div>
 		<div id="page-body" role="main">
